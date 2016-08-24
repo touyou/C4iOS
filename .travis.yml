@@ -10,5 +10,4 @@ env:
         - COCOAPODS_DISABLE_DETERMINISTIC_UUIDS=1
 
 script:
-    - set -o pipefail
-    - xcodebuild clean test -project C4iOS.xcodeproj -scheme C4 -sdk iphonesimulator
+    - xcodebuild clean test -project C4iOS.xcodeproj -scheme C4 -sdk iphonesimulator | xcpretty
