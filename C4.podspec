@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "C4"
-  s.version      = "3.0.1"
+  s.version      = "3.0.2"
   s.summary      = "Code, Creatively."
   s.description  = <<-DESC
                     C4 is an open-source creative coding framework that harnesses the power 
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.3'
   s.tvos.deployment_target = '9.3'
 
-  s.source = { :git => "https://github.com/C4Labs/C4iOS.git", :tag => s.version }
+  s.source = { :git => "https://github.com/touyou/C4iOS.git", :tag => s.version }
 
   s.source_files = "C4/**/*.swift"
   s.tvos.exclude_files = 'C4/UI/UIGestureRecognizer+Closure.swift', 'C4/UI/View+Gestures.swift', 'C4/UI/Camera.swift'
