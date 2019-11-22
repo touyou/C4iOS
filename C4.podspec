@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.authors      = { "Travis" => "info@c4ios.com", "Alejandro Isaza" => "al@isaza.ca" }
 
-  s.ios.deployment_target = '9.3'
-  s.tvos.deployment_target = '9.3'
+  s.ios.deployment_target = '11.0'
+  s.tvos.deployment_target = '11.0'
 
   s.source = { :git => "https://github.com/touyou/C4iOS.git", :tag => s.version }
 
